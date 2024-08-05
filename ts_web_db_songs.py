@@ -26,7 +26,7 @@ url_nome_musica = {
 
 # Função para escrever log
 def write_log(message):
-    log_file_path = 'C:/Users/gblsj/OneDrive/Documentos/Python/RPA/ts_web_db_songs/log.txt'
+    log_file_path = '(Seu diretório)'
     with open(log_file_path, 'a', encoding='utf-8') as log_file:
         log_file.write(message.strip() + '\n')
     print(message.strip())  # Imprime a mensagem no console
